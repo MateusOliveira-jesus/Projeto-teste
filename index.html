@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserStyle</title>
+    <link rel="shortcut icon" href="imagens/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="estilos/retrato.css" media="screen and ( orientation: portrait)">
+
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and(orientation: landscape)">
+
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo.png" alt="logo do site">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EMPRESA</a>
+                  <ul class="submenu">
+                    <li><a href="#">Subitem 1</a></li>
+                    <li><a href="#">Subitem 2</a></li>
+                    <li><a href="#">Subitem 3</a></li>
+                   
+                    <li><a href="#">Subitem 4</a></li>
+                    <ul class="submenu2">
+                        <li><a href="#">Subitem 1</a></li>
+                        <li><a href="#">Subitem 2</a></li>
+                        <li><a href="#">Subitem 3</a></li>
+                        <li><a href="#">Subitem 4</a></li>
+                      </ul>
+                  </ul>
+                </li>
+                <li><a href="#">CLIENTES</a></li>
+                <LI><a href="#">CONTATO</a></LI>
+              </ul>
+              
+        </nav>
+    </header>
+    <main>
+
+        <section class="slide-geral">
+            <article class="conteudo">
+
+                <section class="slides">
+                    <input type="radio" name="btnradio" id="ibtnradio1">
+                    <input type="radio" name="btnradio" id="ibtnradio2">
+                    <div class="slide first"><img src="imagens/imagem-slide.jpg" alt="primeira imagem slide"></div>
+                    <div class="slide"><img src="imagens/imagem-slide2.jpg" alt="segunda imagem slide"></div>
+                </section>
+
+
+                <section class="navegacao">
+                    <label class="btn-slide" for="ibtnradio1"></label>
+                    <label class="btn-slide" for="ibtnradio2"></label>
+
+                </section>
+                <script src="script.js"></script>
+            </article>
+        </section>
+
+        <section class="imagemb">
+            <article>
+                <img src="imagens/imagem-principal.jpg" alt="primeira imagem">
+            </article>
+        </section>
+
+        <article class="destaque">
+            <h1>Destaques:</h1>
+        </article>
+
+        <section class="imagem-r">
+            <img src="imagens/foto2.jpg" alt="sapatos femininos">
+        </section>
+        <section class="imagem-r">
+            <img src="imagens/foto3.jpg" alt="sapato social">
+        </section>
+        <section class="imagem-r">
+            <img src="imagens/foto4.jpg" alt="estilo quente">
+        </section>
+        <section class="imagem-r">
+            <img src="imagens/imagem5.jpg" alt="moda verão">
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">EMPRESA</a></li>
+                <LI><a href="#">CLIENTES</a></LI>
+                <LI><a href="#">CONTATO</a></LI>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
